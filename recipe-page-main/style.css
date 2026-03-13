@@ -1,0 +1,87 @@
+.young-serif-regular{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  color: hsl(24, 5%, 18%);
+}
+
+.outfit-text {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h2{
+  color: hsl(14, 45%, 36%);
+}
+
+.outfit-text#prep{
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+body{
+  font-size: 16px;
+  background-color:hsl(30, 54%, 90%);
+  padding-left: 450px;
+}
+
+#mainBox{
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 10px;
+  margin: 150px;
+  padding: 30px;
+  width: 600px;
+  align-self: center;
+}
+
+hr{
+  color: hsl(30, 18%, 87%);
+}
+
+#prepBox{
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+ul li{
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+ul#igredients li{
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+ul li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+ol li{
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+ol li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+img{
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+td{
+  width: 600px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-left: 50px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
